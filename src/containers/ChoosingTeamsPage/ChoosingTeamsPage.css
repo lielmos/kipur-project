@@ -1,0 +1,83 @@
+.choosing-teams-page {
+    background-image: url("/src/media/images/choosingTeamsPage.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    font-family: "AdumaFOT-Regular";
+}
+
+.choosing-teams-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.teams-img-container {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: 55%;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+.airplane-teams {
+    background-image: url("/src/media/images/airplane-teams.png");
+    width: 45%;
+    height: 100%;
+
+}
+
+.tank-teams {
+    background-image: url("/src/media/images/tank-teams.png");
+    width: 45%;
+    height: 100%;
+
+}
+
+.teams-names-container {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.team-name {
+    padding: 0.1vh 1vw;
+    font-size: 2.5vmax;
+    color: #4c4c4c;
+    background: transparent;
+    border: 0.1em solid #4c4c4c;
+    font-family: "AdumaFOT-Regular";
+    text-align: center;
+}
+
+.choosing-names-btn {
+    padding: 0.1vh 1vw;
+    font-size: 3vmax;
+    cursor: pointer;
+    color: #000000;
+    background: transparent;
+    border: 0.05em solid #000000;
+    font-family: "AdumaFOT-Regular";
+    margin-top: 3%;
+    width: 15%;
+    box-shadow: 0.1vw 0.3vh #888888;
+}
+
+
+.choosing-names-btn:hover {
+    color: #ffffff;
+    background: #211f1f;
+    box-shadow: none;
+    border-style: none;
+}
+
+.error-message-text {
+    color: #d96e78;
+    font-size: 1.2vmax;
+}

@@ -1,23 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import OpeningPage from "./containers/OpeningPage/OpeningPage";
+import ExplainingPage from "./containers/ExplainingPage/ExplainingPage";
+import ChoosingTeamsPage from "./containers/ChoosingTeamsPage/ChoosingTeamsPage";
+import QuestionsPage from "./containers/QuestionsPage/QuestionsPage";
+import EndingPage from "./containers/EndingPage/EndingPage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from 'react';
 
 function App() {
+  const [teams, setTeams] = useState({
+    "airplane": { "name": "", "score": 0},
+    "tank": { "name": "", "score": 0}
+});
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route
+            exact path="/" element={<OpeningPage />}
+          />
+          <Route
+            exact path="/ExplanationPage" element={<ExplainingPage />}
+          />
+          <Route
+            exact path="/ChoosingTeamsPage"
+            element={
+              <ChoosingTeamsPage
+                setTeams={setTeams}
+              />}
+          />
+          <Route
+            exact path="/QuestionsPage"
+            element={<QuestionsPage
+              teams={teams}
+              setTeams={setTeams}
+            />}
+          />
+          <Route
+            exact path="/EndingPage"
+            element={<EndingPage teams={teams}/>}
+          />
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.curr-team-airplane {
+    background-image: url("/src/media/images/airplane-current-team.png");
+}
+
+.curr-team-tank {
+    background-image: url("/src/media/images/tank-current-team.png");
+}
+
+.curr-team {
+    width: 15%;
+    height: 31%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -4%;
+}
+
+.question-headline-container {
+    margin-top: -3.5%;
+    width: 85%;
+}
+
+.question-headline-container > h2 {
+    font-size: 3.8vmax;
+    letter-spacing: 0.04em;
+    text-align: center;
+}

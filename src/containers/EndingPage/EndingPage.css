@@ -1,0 +1,108 @@
+.ending-page {
+    background-image: url("/src/media/images/endingPage.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    font-family: "AdumaFOT-Light";
+    color: #5c55d4;
+}
+
+.ending-page-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.winner-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 59%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.winner-text, .darw-text {
+    margin: 0;
+    letter-spacing: 0.001em;
+    line-height: 0.8em;
+}
+
+.winner-text {
+    font-size: 11vmax;
+    margin-top: 2%;
+}
+
+.draw-text {
+    margin: 0;
+    font-size: 13vmax;
+    margin-top: 10%;
+    text-align: center;
+    margin-right: -3%;
+}
+
+.airplane-logo-winner,
+.tank-logo-winner {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 85%;
+    height: 100%;
+    margin-top: -15%;
+    margin-bottom: -10%;
+}
+
+.tank-logo-winner {
+    background-image: url("/src/media/images/tank-logo.png");
+}
+
+.airplane-logo-winner {
+    background-image: url("/src/media/images/airplane-logo.png");
+}
+
+.draw-images-conatiner {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 100%;
+    align-self: center;
+}
+
+.airplane-draw {
+    background-image: url("/src/media/images/airplane-logo.png");
+    width: 50%;
+    height: 100%;
+}
+
+.tank-draw {
+    background-image: url("/src/media/images/tank-logo.png");
+    width: 50%;
+    height: 100%;
+}
+
+.pointes-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pointes-container > h1 {
+    font-size: 25vmax;
+    margin: 0;
+    letter-spacing: 0.001em;
+    margin-top: 2%;
+    text-shadow: 0px 15px black;
+}
+
+.pointes-container > p {
+    font-size: 9vmax;
+    margin: 0;
+    font-family: "AdumaFOT-Regular";
+    margin-top: -15%;
+    /* text-shadow: 0px 15px black; */
+    text-shadow: 0px 10px black;
+}

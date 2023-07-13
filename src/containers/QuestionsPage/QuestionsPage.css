@@ -1,0 +1,63 @@
+.choosing-level-page {
+    background-image: url("/src/media/images/choosingTeamsPage.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    font-family: "AdumaFOT-Light";
+}
+
+.choosing-level-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.teams-img-logo-container {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 15%;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    margin-top: -1%;
+}
+
+.airplane-logo {
+    background-image: url("/src/media/images/airplane-logo.png");
+    width: 13%;
+    height: 170%;
+    margin-top: -1%;
+}
+
+.tank-logo {
+    background-image: url("/src/media/images/tank-logo.png");
+    width: 11%;
+    height: 140%;
+}
+
+.teams-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: -0.5%;
+}
+
+.teams-container > div {
+    width: 10%;
+    font-size: 1.5vmax;
+}
+
+.name, .score {
+    text-align: center;
+    margin: 0;
+}
+
+.score {
+   color: #5c55d4;
+   font-family: "AdumaFOT-Regular";
+}

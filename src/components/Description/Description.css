@@ -1,0 +1,45 @@
+.question-description-container {
+    width: 60%;
+    height: 40%;
+    margin: -1%;
+}
+
+.question-description-container-flex {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 40%;
+    margin: -1%;
+    justify-content: space-between;
+}
+
+.question-description-container-flex > img{
+    height: 75%;
+}
+
+.question-description {
+    text-align: center;
+    font-size: 2.8vmax;
+    margin: 0;
+}
+
+.next-btn {
+    padding: 0.5vh 1.5vw;
+    font-size: 1.8vmax;
+    cursor: pointer;
+    color: #000000;
+    background: transparent;
+    border: 0.05em solid #000000;
+    font-family: "AdumaFOT-Regular";
+    box-shadow: 0.1vw 0.3vh #888888;
+    margin-right: auto;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.next-btn:hover {
+    color: #ffffff;
+    background: #211f1f;
+    box-shadow: none;
+    border-style: none;
+}

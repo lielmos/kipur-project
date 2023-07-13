@@ -1,0 +1,8 @@
+.option-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 45%;
+    margin-top: -3%;
+}

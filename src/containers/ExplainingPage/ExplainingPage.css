@@ -1,0 +1,50 @@
+.explaining-page {
+    background-image: url("/src/media/images/explainingPage.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    color: #4c4c4c;
+    font-family: "AdumaFOT-Regular";
+}
+
+.explaining-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 53vw;
+    height: 100vh;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+.explaining-page-container>h1 {
+    font-size: 9vmax;
+    font-weight: 200;
+    margin: 0;
+}
+
+.explaining-page-text{
+    font-size: 3vmax;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.explaining-page-btn {
+    padding: 0.1vh 1vw;
+    font-size: 3vmax;
+    cursor: pointer;
+    color: #000000;
+    background: transparent;
+    border: 0.05em solid #000000;
+    margin-top: 3%;
+    font-family: "AdumaFOT-Regular";
+    box-shadow: 0.1vw 0.3vh #888888;
+}
+
+.explaining-page-btn:hover {
+    color: #ffffff;
+    background: #211f1f;
+    box-shadow: none;
+    border-style: none;
+}

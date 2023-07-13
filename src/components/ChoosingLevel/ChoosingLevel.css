@@ -1,0 +1,58 @@
+.team-img-airplane {
+    background-image: url("/src/media/images/airplane-current-team.png");
+    width: 23%;
+    height: 47%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.team-img-tank {
+    background-image: url("/src/media/images/tank-current-team.png");
+    width: 23%;
+    height: 47%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.choosing-level-page-container>h2 {
+    font-size: 4.5vmax;
+    margin-top: -1.5%;
+    letter-spacing: 0.04em;
+}
+
+.levels-container {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-evenly;
+    margin-top: -2%;
+}
+
+.level-btn {
+    padding: 0.1vh 1vw;
+    font-size: 3.5vmax;
+    cursor: pointer;
+    color: #000000;
+    background: transparent;
+    border: 0.05em solid #000000;
+    margin-top: 3%;
+    font-family: "AdumaFOT-Regular";
+    box-shadow: 0.1vw 0.3vh #888888;
+    width: 28%;
+    height: 65%;
+}
+
+.level-btn:hover {
+    color: #ffffff;
+    background: #211f1f;
+    box-shadow: none;
+    border-style: none;
+}
+
+.level-btn:disabled {
+    color: #ffffffe8;
+    background: #959292ba;
+    box-shadow: none;
+    border-style: none;
+    cursor: initial;
+}
