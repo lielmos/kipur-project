@@ -27,7 +27,7 @@ const Question = (props) => {
             }
             setTimeout(() => {
                 setShowDescription(true);
-            }, 1000);
+            }, 3000);
         }
     }, [isAnswerRight]);
 
