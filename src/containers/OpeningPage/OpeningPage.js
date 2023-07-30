@@ -16,7 +16,7 @@ const OpeningPage = () => {
                 <div className="logos-div">
                     <div className="shalhevet-logo logo"></div>
                     <div className="idf-logo logo"></div>
-                    <div className="kipur-logo logo"></div>
+                    <div className="new-kipur-logo logo"></div>
                 </div>
             </div>
         </div>
