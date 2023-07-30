@@ -76,10 +76,9 @@
 
 .new-kipur-logo {
     background-image: url("/src/media/images/new-kipur-logo.png");
-    width: 10vw;
-    height: 19vh;
-    margin-top: -3%;
-    margin-right: 78%;
+    height: 11vh;
+    margin-right: 74%;
+    width: 15vw;
 }
 
 .opening-page-btn {
